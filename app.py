@@ -16,7 +16,3 @@ def works():
 @app.route("/contact.html")
 def contact():
     return render_template("contact.html", menu_items = menu_items)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
