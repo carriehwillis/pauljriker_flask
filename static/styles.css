@@ -1,0 +1,145 @@
+* {
+  font-family: 'Actor', sans-serif;
+  color: #333333;
+  /* color: #dcdcdc; */;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 75vh;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+footer {
+  /* margin-top: 2em;
+  margin-bottom: 0px;
+  height: 25px; */
+  font-size: 0.85em;
+}
+footer p, footer a {
+  font-family: monospace;
+}
+
+footer a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline 3px;
+}
+img.logo {
+  padding: 10px;
+  max-width: 300px;
+}
+
+li.nav-item a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+li.nav-item a:hover {
+  text-decoration: underline 4px;
+}
+
+li.nav-item.active {
+  text-decoration: underline 4px gray;
+}
+
+img.figure-img {
+  border: 1px solid;
+  min-height: 150px;
+}
+
+img.figure-img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-container {
+  margin-top: 3em;
+}
+#beforereadmore {
+  margin-bottom: 0.25em;
+}
+
+#readmore {
+  margin-bottom: 1em;
+}
+
+.contact-button a {
+  margin: 0.25em;
+  text-decoration: none;
+  color: #333333;
+}
+
+.contact-button a:hover {
+  text-decoration: underline;
+}
+
+h3.cv {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+h3 + ul {
+  list-style-type: none;
+}
+
+span.journal {
+  font-style: italic;
+}
+
+a.download-btn {
+  margin-bottom: 1em;
+}
+
+img.tweets {
+  max-height: 500px;
+}
+
+/* Media rules */
+/* xs */
+@media (min-width: 576px) {
+  img.bio {
+      /* width: 300px; */
+      float: none;
+      height: auto;
+  }
+  .nav {
+    margin-bottom: 0.25em;
+  }
+
+  .nav li {
+    margin-bottom: .1em
+  }
+
+/* sm */
+@media (min-width: 768px) {
+    img.bio {
+        width: 350px;
+        float: left;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    img.bio {
+        width: 500px;
+    }
+
+    img.logo {
+      max-width: 400px;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    img.bio {
+        width: 60%;
+    }
+}
+}
