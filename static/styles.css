@@ -10,7 +10,7 @@ nav {
 
 .flex-wrapper {
   display: flex;
-  min-height: 75vh;
+  min-height: 70vh;
   flex-direction: column;
   /* justify-content: space-between; */
 }
